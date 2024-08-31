@@ -65,7 +65,37 @@ body {
     text-decoration: underline;
 }
 
+.mobile-menu {
+    display: none;
+    background-color: #fff;
+    color: #000;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px; /* Arredonda as bordas do botão */
+  }
 
+  .navbar-links.active {
+    display: block;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background-color: #0004ff;
+    padding: 10px;
+    text-align: center; /* Centraliza os links */
+  }
+  
+  .navbar-links.active li {
+    margin-left: 0;
+  }
+  
+  .navbar-links.active a {
+    color: #ffffff;
+    display: block; /* Exibe cada link em uma nova linha */
+    padding: 10px;
+  }
+  
 /* Header */
 .header {
     text-align: center;

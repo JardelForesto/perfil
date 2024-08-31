@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Currículo - Seu Nome</title>
+    <title>Currículo</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -11,6 +11,7 @@
     <nav class="navbar">
         <div class="container">
             <a href="#" class="brand">Jardel Lezier Foresto</a>
+            <button class="mobile-menu">Menu</button>
             <ul class="navbar-links">
                 <li><a href="https://wa.me/19991229845">Celular/Whatsapp</a></li>
                 <li><a href="mailto:jardellezier@hotmail.com">Email</a></li>
@@ -167,5 +168,13 @@
         <p>34 anos, Casado, 1 filha. Reside em Campinas/SP.</p>
     </div>
 </footer>
+<script>
+const mobileMenu = document.querySelector('.mobile-menu');
+const navbarLinks = document.querySelector('.navbar-links');
+
+mobileMenu.addEventListener('click', () => {
+  navbarLinks.classList.toggle('active'); // Adiciona/remove a classe 'active'
+});
+</script>
 </body>
 </html>

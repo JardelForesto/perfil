@@ -51,17 +51,16 @@ body {
     display: flex;
 }
 
-.navbar-links li {
-    margin-left: 20px;
-}
 
 .navbar-links a {
+    text-align:center;
     color: #ffffff;
     text-decoration: none;
     font-size: 1rem;
 }
 
 .navbar-links a:hover {
+    text-align:center;
     text-decoration: underline;
 }
 
@@ -174,6 +173,21 @@ body {
     height: 1px;
     background-color: #ffffff;
     margin: 10px 0;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer-links a {
+    color: #ffffff;
+    text-decoration: none;
 }
 
 .footer-links a:hover {

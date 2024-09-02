@@ -134,6 +134,7 @@ body {
 
 .content section h4 {
     margin-left: 50px;
+    margin-right: 50px;
 }
 
 .content section p {
@@ -143,7 +144,8 @@ body {
 }
 
 .content section ul {
-     margin-left: 100px;
+     margin-left: 80px;
+    margin-right: 80px;
      padding-bottom: 10pt;
 }
 

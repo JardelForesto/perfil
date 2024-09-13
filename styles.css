@@ -1,8 +1,7 @@
 /* Reset básico */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    margin: 10;
+    padding: 10;
 }
 
 body {
@@ -12,12 +11,9 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    color: #333;
-    line-height: 1.6;
 }
 
-/* Navbar */
+/* Navbar Início------------------------------------------*/
 .navbar {
     position: fixed;
     top: 0;
@@ -94,9 +90,11 @@ body {
     display: block; /* Exibe cada link em uma nova linha */
     padding: 10px;
   }
+/* Navbar Fim---------------------------------------------*/
   
-/* Header */
+/* Header Início------------------------------------------*/
 .header {
+	border: 2px solid;
     text-align: center;
     background-color: #ffffff; /* Fundo do header cobrindo toda a largura */
     margin-top: 80px;
@@ -112,8 +110,9 @@ body {
     font-size: 1.2rem;
     text-align: justify;
 }
+/* Header Fim------------------------------------------*/
 
-
+/* Conteúdo Início--------------------------------------*/
 .content {
     width: 100%;
     padding: 20px;
@@ -122,6 +121,7 @@ body {
 }
 
 .content section {
+	border: 2px solid;
     background-color: #ffffff;
     margin-bottom: 20px;
 }
@@ -132,36 +132,35 @@ body {
     color: #0004ff;
 }
 
-.content section h4 {
-    margin-left: 50px;
-    margin-right: 50px;
-}
 
 .content section p {
     margin-left: 50px;
     margin-right: 50px;
-    padding-bottom: 10pt;
+
 }
 
 .content section ul {
      margin-left: 80px;
     margin-right: 80px;
-     padding-bottom: 10pt;
 }
 
 .content section ul {
     margin-left: 100px;
 }
 
-/* Footer */
+/* Conteúdo Fim--------------------------------------*/
+
+/* Footer Início--------------------------------------*/
 .footer {
+	border: 2px solid;
     background-color: #0004ff;
-    color: #ffffff;
+   /* */
     text-align: center;
     padding: 20px 10px;
 }
 
 .footer .container {
+color: #ffffff;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -195,3 +194,4 @@ body {
 .footer-links a:hover {
     text-decoration: underline;
 }
+/* Footer Fim--------------------------------------*/

@@ -39,7 +39,7 @@ body {
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
-    
+   
 }
 
 .navbar-links {
@@ -80,24 +80,25 @@ body {
     padding: 10px;
     text-align: center; /* Centraliza os links */
   }
-  
+ 
   .navbar-links.active li {
     margin-left: 0;
   }
-  
+ 
   .navbar-links.active a {
     color: #ffffff;
     display: block; /* Exibe cada link em uma nova linha */
     padding: 10px;
   }
 /* Navbar Fim---------------------------------------------*/
-  
+ 
 /* Header Início------------------------------------------*/
 .header {
-	border: 2px solid;
+      border: 2px solid;
     text-align: center;
     background-color: #ffffff; /* Fundo do header cobrindo toda a largura */
     margin-top: 80px;
+
 }
 
 .header h2 {
@@ -106,9 +107,10 @@ body {
 }
 
 .header p {
-    margin-left: 50px;
     font-size: 1.2rem;
     text-align: justify;
+     margin-left: 20px;
+    margin-right: 20px;
 }
 /* Header Fim------------------------------------------*/
 
@@ -121,7 +123,7 @@ body {
 }
 
 .content section {
-	border: 2px solid;
+      border: 2px solid;
     background-color: #ffffff;
     margin-bottom: 20px;
 }
@@ -134,25 +136,24 @@ body {
 
 
 .content section p {
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: justify;
 
 }
 
 .content section ul {
-     margin-left: 80px;
-    margin-right: 80px;
+     margin-left: 30px;
+    margin-right: 30px;
+    text-align: justify;
 }
 
-.content section ul {
-    margin-left: 100px;
-}
 
 /* Conteúdo Fim--------------------------------------*/
 
 /* Footer Início--------------------------------------*/
 .footer {
-	border: 2px solid;
+      border: 2px solid;
     background-color: #0004ff;
    /* */
     text-align: center;
@@ -189,7 +190,7 @@ color: #ffffff;
 .footer-links a {
     color: #ffffff;
     text-decoration: none;
-}
+}a
 
 .footer-links a:hover {
     text-decoration: underline;
